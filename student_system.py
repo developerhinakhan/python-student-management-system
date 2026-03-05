@@ -19,7 +19,7 @@ student_info = False
 for student in Total_Students:
     if student.roll_num  == n:
         print("Student is found:")
-        print(f"Name: {student.name} | Roll Number: {student.roll_num} | Age: {student.age} | Marks: {student.marks}")
+        print(f"Name: {student.name} | Roll Number: {student.roll_num} |~ Age: {student.age} | Marks: {student.marks}")
         student_info = True
         break
 
